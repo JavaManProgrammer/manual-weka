@@ -20,41 +20,27 @@
     height: 220px;
     color: white;
 }
+.content{
+    margin-top: 10px;
+    padding: 0 50px;
+}
+.content img{
+    margin-top: 5px;
+    width: 100%;
+    max-width: max-content;
+    margin: auto;
+    cursor: pointer;
+}
+.content p{
+    text-align: justify;
+}
 .intalacao, #h{
     padding-top: 10px;
     text-align: center;
     margin: 0px;
     color: #061335;
 }
-#download{
-    padding: 5px;
-    margin: 10px;
-    font-size: 13pt;
-    width: 97%;
-    text-align: center;
-    color:#061335;
-}
-#windows{
-    padding: 0px;
-    margin: 10px;
-    margin-left: 25%;
-    font-size: 12pt;
-    text-align: justify;
-}
-#mac{
-    padding: 0px;
-    margin: 10px;
-    margin-left: 25%;
-    font-size: 12pt;
-    text-align: justify;
-}
-#linux{
-    padding: 0px;
-    margin: 10px;
-    margin-left: 25%;
-    font-size: 12pt;
-    text-align: justify;
-}
+
 #terminal{
     margin-top: 10px;
     padding: 0 50px;
@@ -62,32 +48,4 @@
     height: auto;
     text-align: justify;
     color: rgb(255, 0, 0);
-}
-.funcionalidades{
-    padding-top: 10px;
-    text-align: center;
-    color: #061335;
-    font-size: 13pt;
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-}
-.fim-pagina{
-    color: #ffffff;
-    padding-top: 10px;
-    width: auto;
-    height: auto;
-    margin: 0;
-    background-color: #0b225c;
-    text-align: center;
-}
-.j48{
-    padding-top: 10px;
-    text-align: initial;
-    color: #061335;
-    font-size: 13pt;
-    margin-left: 25%;
-    font-family: Arial, Helvetica, sans-serif;
-}
-.j48-i{
-    text-align: center;
 }

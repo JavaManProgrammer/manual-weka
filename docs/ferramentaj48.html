@@ -15,7 +15,7 @@
         <h2 class="logo">Manual Weka</h2>
         <input type="checkbox" id="chk">
         <label for="chk" class="show-menu-btn">
-            <i class="fas fa-ellipsis-h"></i>
+            <i class="fas fa-ellipsis-v"></i>
         </label>
 
         <ul class="menu">
@@ -31,32 +31,59 @@
     </div>
 
     <div class="content">
-        <h2>J48</h2> <br>
+        <h1 style="text-align: center;"><ins>J48</ins></h1> <br>
         <h3>Resumo</h3>
-        <p>Quando uma pessoa tem a sua frente algo onde precisa analizar uma decisão,   
+        <p>Quando uma pessoa tem a sua frente algo onde precisa analisar uma decisão,   
         a pessoa fica confusa pois o número de opções que pode tomar é gigante, e com   
         cada escolha tem uma consequência diferente uma que pode prejudicar e outra     
         que pode ajudar. Uma simples escolha pode levar a diversos caminhos cada        
         vez mais complexos, é nessas ocasiões onde a <ins>Árvore de Decisões</ins> se   
         torna extremamente importante para o andamento do projeto, ou da decisão que    
         precisa ser tomada. A <ins>Árvore de Decisões</ins> é uma ferramenta de         
-        suma importância em casos onde é preciso a tomada de uma decisão, esssa         
+        suma importância em casos onde é preciso a tomada de uma decisão, essa         
         ferramenta ajudas muito nesses casos já que ela oferece um mapa onde é possível 
         ver as decisões e suas consequências, e assim dando um norte para um certo      
-        projeto ou empresa.</p>                                                         
-        <h3>Por que usar uma <ins>Árvore de Decisão</ins>?</h3>
-        <p>Com o passa do anos as empresa vem sendo cobradas e mais cobradas em relação 
+        projeto ou empresa.</p>       
+        <br>           
+        <h3>Como fazer uma Árvore de Decisão ?</h3>
+        <p>Árvore de Decisão nada mais é do que um fluxograma ou diagrama criado por 
+        algoritmos, que podem ser feitos por meio de programas ou manualmente, nesse
+        tópico vou abordar a maneira manual de fazer uma árvore de decisões de modo 
+        lógico e racional. A Árvore de Decisões tem uma estrutura que é baseada em uma
+        hierarquia invertida que remete a uma árvore, a progressão previsiva e classificatória
+        representa o tronco. As ramificações são as mudanças de níveis. O mapa onde é 
+        representado as decisões começa com apenas um nó e é a partir desse nó que são divididos 
+        e assim criando possíveis ramificações e cada ramificação guarda um possibilidade 
+        diferente, na árvore de decisões existem três tipos de nós: <br>
+        Probabilidade,  decisão e término.
+        Para ensiná-los a fazer uma árvore de decisões primeiro é preciso que centralizem uma 
+        ideia principal, a partir dessa ideia coloque probabilidades que indicam as decisões,
+        e são essas decisões que se ramificam criando decisões e resultados distintos. 
+        </p>                                       
+        <br>
+        <h3>Como avaliar os resultados de uma Árvore de Decisão ?</h3>
+        <p>O resultado das árvores de decisão nos trazem várias dúvidas, uma delas é como podemos avaliar uma 
+        árvore de determinado arquivo ou dado, antes de avaliar uma árvore precisamos entender como ela funciona,
+        como já vimos uma árvore de decisões é nada mais do que um diagrama que permitem representar problemas 
+        e que envolvem decisões sequenciais, assim apontando os riscos, as oportunidades, e também os resultados
+        de cada decisão. Em alguns casos precisamos ver com atenção cada decisão pois é a partir das decisões 
+        que podemos analisar com clareza qual a melhor opção, ou seja, qual decisão precisa ser tomada. 
+        </p>
+        <br>
+        <h3>Por que usar uma Árvore de Decisão?</h3>
+        <p>Com o passa do anos as empresa veem sendo cobradas e mais cobradas em relação 
         ao desempenho obtido, escolhas rápidas são um verdadeiro fracasso e passam longe
         de serem propostas, por isso a <ins>Árvore de Decisões</ins> é bem importante   
-        pois além da rapidez em uma resposta também fica mais facil tomar decisões, já  
-        que é possivel visualizar os melhores caminhos para determinada decisão. </p>
+        pois além da rapidez em uma resposta também fica mais fácil tomar decisões, já  
+        que é possível visualizar os melhores caminhos para determinada decisão. </p>
         <br>
+        <hr style="border: 1px outset #061335;">
         <h3>Ultilizando a ferramenta J48</h3>
-        <p>Primeiramente irei ultilizar um arquivo com dados já fornecidos que estarei  
+        <p>Primeiramente irei utilizar um arquivo com dados já fornecidos que estarei  
         deixando o link <a href="https://storm.cis.fordham.edu/~gweiss/data-mining/weka-data/vote.arff">AQUI</a>.</p>
-        <p>Copie todo o texto que está no aquivo acima e cole em algum editor de texte de
-        sua preferência, não se esqueça de salva-lo como .arff. Se você chegou aqui mas  
-        não sabe o que é um arquivo com a extenção .arff, selecione a opção <ins> 'COMO USAR' </ins> 
+        <p>Copie todo o texto que está no aquivo acima e cole em algum editor de texto de
+        sua preferência, não se esqueça de salvá-lo como .arff. Se você chegou aqui mas  
+        não sabe o que é um arquivo com a extensão .arff, selecione a opção <ins> 'COMO USAR' </ins> 
         em nosso menu.</p>
         <br>
     </div>
@@ -103,6 +130,34 @@
         estatística sobre a votação. Esse dado se bem ultilizado pode trazer grandes
         benefícios para determinadas áreas de serviços, como pro exmplo, jornalistas
         ou até mesmo para o governo e sua população.</p>
+        <br>
+        <h3>Suporte e Confiança</h3>
+        <p>Para melhor entendermos como a ferramenta funciona e como são feito alguns dos cálculos,
+        veremos agora um exemplo e também como sera feito o calculo desse exemplo. Esses cálculos não
+        aparecem para os usuários da ferramenta pois a ferramenta já tem em seu código os cálculos
+        necessários. <br>
+        Veja a tabela abaixo, ela representa um supermercado e os produtos, e também 10 clientes que 
+        fizeram compras nesse mercado.
+        </p>
+        <img src="Imagens/WekaConfiança1.png" alt="" width="auto" height="auto">
+        <p><br></p>
+        <p>A tabela abaixo é sobre o <ins>Suporte</ins>. Mas você deve estar se perguntando o que 
+        os dados dessa tabela significam, pois bem na tabela acima você pode analisar e perceber
+        10 compras diferentes. O suporte é o cálculo de quantas vezes um item apareceu, um exemplo é 
+        o pão que apareceu em 50% das compras registradas na tabela.
+        </p>
+        <img src="Imagens/WekaSuporte.png" alt="" width="auto" height="auto">
+        <p><br></p>
+        <p>As duas tabelas abaixo são sobre a <ins>Confiança</ins>. O cálculo feito na é 
+        quantas vezes um produto foi comprado em conjunto com outro, podemos perceber na primeira
+        tabela que o leite apareceu em 2 casos em quanto o café apareceu 3, ou seja, 3 clientes compraram 
+        esses produtos mas apenas 1 comprou os comprou leite e café ao mesmo tempo. <br>
+        Na segunda tabela podemos ver que de 5 os clientes que compraram pão  5 também compraram
+        manteiga, nese caso o cálculo usado é que de a cada 1 pessoa que compra pão ela também irá
+        comprar manteiga mas, nem sempre é assim esse calculo é apenas uma previsão.</p>
+        <img src="Imagens/WekaConfiança2.png" alt="" width="auto" height="auto">
+        <p><br></p>
+        <img src="Imagens/WekaConfiança3.png" alt="" width="auto" height="auto">
     </div>
 
 

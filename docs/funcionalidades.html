@@ -15,7 +15,7 @@
         <h2 class="logo">Manual Weka</h2>
         <input type="checkbox" id="chk">
         <label for="chk" class="show-menu-btn">
-            <i class="fas fa-ellipsis-h"></i>
+            <i class="fas fa-ellipsis-v"></i>
         </label>
 
         <ul class="menu">
@@ -31,7 +31,7 @@
     </div>
 
     <div class="content">
-        <i class="fas fa-file-archive" style="font-size: 30pt;"></i>
+        <i class="fas fa-file" style="font-size: 30pt;"></i>
         <h1>Criando um Arquivo .arff no Weka</h1>
         <p>Esse é um exemplo de um arquivo .arff</p>
         <img src="Imagens/ArquivoARFF.png" alt="" width="auto" height="auto">
@@ -39,10 +39,21 @@
         <p>Essa primeira parte do arquivo, <br> como podemos observar é onde podemos fazer os comentários.</p>
         <img src="Imagens/ComentarioARFF.png" alt="" width="auto" height="auto">
         <p><br></p>
-        <p>Agora vamos ver onde colocamos o nome do Dataset e dos Atributos.</p>
+        <p>Agora vamos ver onde colocamos o nome do <ins>Dataset</ins> e dos <ins>Atributos</ins>.
+        O <ins>@relation</ins> é onde será quardado o nome do Dataset.</p>
+        <p><ins>@attribute</ins> é como o nome mesmo já diz os atributos, entre as chaves é onde será guardado as possibilidades que certo atributo irá ter.
+        Como por exemplo <ins>@attribute tempo{ensolarado, nublado, chuvoso}</ins>, nesse exemplo estou dizendo que as 
+        possibilidades que o atributo clima terá é chuvoso, ensolarado e nublado, outro exemplo que podemos usar é 
+        <ins>@attribute temperatura{quente, moderado, frio}</ins>.</p>
         <img src="Imagens/DatasetAtributosARFF.png" alt="" width="auto" height="auto">
         <p><br></p>
-        <p>Essa é a ultima parte do arquivo mas,<br> de maneira alguma deixa de ser importante já que guarda os dados.</p>
+        <p> Essa parte do <ins>@data</ins> é onde colocamos os dados na relação, como por exemplo.</p>
+        <p>@data</p>
+        <p>ensolarado, quete</p>
+        <p>chuvoso, quete</p>
+        <p>nublado, quente</p>
+        <p>E assim em diante</p>
+        <p>Agora não se esqueça de salvar o arquivo com a extenção .arff</p>
         <img src="Imagens/DadosARFF.png" alt="" width="auto" height="auto">
         <p><br></p>
         <p>Agora para abrir o arquivo é necessário que selecione a opção <ins>Explorer</ins>.</p>
@@ -58,6 +69,23 @@
         <p>será aberta essa página onde será possível examinar os dados.</p>
         <img src="Imagens/WekaExplorer3.png" alt="" width="auto" height="auto">
         <p><br></p>
+        <hr style="border: 1px outset #061335;"> <br>
+        <i class="fas fa-file-csv" style="font-size: 30pt;"></i>
+        <h1>Vizualizando um arquivo .csv</h1>
+        <br>
+        <p>Já vimos como fazer um arquivo .arff e como abri-lo. Agora vamos vizualizar um arquivo .csv,
+        basicamente é o mesmo processo para abrir um arquivo .csv como é para abrir um .arff .</p>
+        <p>Primairamente abra a ferramenta Weka em seu computador, e selecione a opção <ins>Explorer</ins>.</p>
+        <img src="Imagens/TelaWeka.png" alt="" width="auto" height="auto">
+        <p><br></p>
+        <p>Selecione a opção <ins>Open file</ins>.</p>
+        <img src="Imagens/WekaExplorer.png" alt="" width="auto" height="auto">
+        <p><br></p>
+        <p>Vá até o arquivo que deseja abrir e abra.</p>
+        <img src="Imagens/WekaExplorer2-2.png" alt="" width="auto" height="auto">
+        <p><br></p>
+        <p>Após ter selecionado o arquivo .csv e clicado em abrir será exibida uma página com os dados do arquivo.</p>
+        <img src="Imagens/WekaExplorer3-3.png" alt="" width="auto" height="auto">
     </div>
 </body>
 </html>
